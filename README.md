@@ -6,7 +6,7 @@ A skeletion for creating a Vue.js-powered WordPress plugin.
 - Initialize a new Vue project using vue-cli:
 `vue init webpack <project_name>`
 
-- Merge the contents of this folder into the new Vue project, overwriting all files when prompted
+- Merge the contents of this repo (except for ".gitignore") into the new Vue project, overwriting all files when prompted
 
 - Optional: uncomment the Foundation 6 resources in index.html. Note that this is for development use only, these files will not be injected into the built project files.
 
