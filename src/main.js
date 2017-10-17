@@ -5,7 +5,7 @@ import App from './App'
 
 Vue.config.productionTip = false
 
-// @AB: window.onload required to load Vue inside of WP
+// @Ep: window.onload required to load Vue inside of WP
 window.onload = function () {
   /* eslint-disable no-new */
   new Vue({
