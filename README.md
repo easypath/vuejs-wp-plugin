@@ -1,6 +1,6 @@
 # vuejs-wp-plugin
 
-A skeletion for creating a Vue.js-powered WordPress plugin.
+A skeletion for creating a [Vue.js](https://vuejs.org/)-powered WordPress plugin.
 
 ## Installlation:
 - Initialize a new Vue project using vue-cli:
@@ -12,7 +12,7 @@ A skeletion for creating a Vue.js-powered WordPress plugin.
 
 - Rename the vuejs-wp-plugin.php file to match the name of the project; also update the WordPress plugin headers inside the file
 
-- Build the project
+- Build the project for production
 
 - Activate the plugin in WordPress
 
