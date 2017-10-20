@@ -22,7 +22,7 @@ const webpackConfig = merge(baseWebpackConfig, {
   devtool: config.build.productionSourceMap ? '#source-map' : false,
   output: {
     path: config.build.assetsRoot,
-    // @AB: Removed file hashing, otherwise built project files cannot be properly enqueued by WP plugin
+    // @Ep: Removed file hashing, otherwise built project files cannot be properly enqueued by WP plugin
     //filename: utils.assetsPath('js/[name].[chunkhash].js'),
     filename: utils.assetsPath('js/[name].js'),
     //chunkFilename: utils.assetsPath('js/[id].[chunkhash].js')
@@ -42,7 +42,7 @@ const webpackConfig = merge(baseWebpackConfig, {
     }),
     // extract css into its own file
     new ExtractTextPlugin({
-      // @AB: Removed file hashing
+      // @Ep: Removed file hashing
       //filename: utils.assetsPath('css/[name].[contenthash].css')
       filename: utils.assetsPath('css/[name].css')
     }),
