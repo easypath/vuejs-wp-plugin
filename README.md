@@ -20,6 +20,7 @@ A skeletion for creating a [Vue.js](https://vuejs.org/)-powered WordPress plugin
 
 
 ## Notes
+- Appending hashes to filenames for production assets has been removed, otherwise filenames need to be manually updated after every build in order to enqueue by WordPress plugin
 - To change the port when running the dev server:
 `export PORT=<port> | npm run dev`
 
