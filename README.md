@@ -1,9 +1,9 @@
 # vuejs-wp-plugin
 
-A skeletion for creating a [Vue.js](https://vuejs.org/)-powered WordPress plugin.
+A skeletion for creating a [Vue.js](https://vuejs.org/)-powered WordPress plugin. Based on the Vue [Webpack](https://github.com/vuejs-templates/webpack) template.
 
 ## Installlation:
-- Initialize a new Vue project using vue-cli:
+- Initialize a new Vue project using [vue-cli](https://github.com/vuejs/vue-cli):
 `vue init webpack <project_name>`
 
 - Merge the contents of this repo (except for ".gitignore") into the new Vue project, overwriting all files when prompted
