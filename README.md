@@ -2,7 +2,7 @@
 
 A skeletion for creating a [Vue.js](https://vuejs.org/)-powered WordPress plugin. Based on the Vue [Webpack](https://github.com/vuejs-templates/webpack) template.
 
-## Installlation:
+## Installation:
 - Initialize a new Vue project using [vue-cli](https://github.com/vuejs/vue-cli):
 `vue init webpack <project_name>`
 
